@@ -12,7 +12,11 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/home" exact component={Home} />
+        <Route path="/home" exact render={() => {
+          return (
+            <Redirect to="/home" />
+          )
+        }} component={Home} />
       </Switch>
       <Switch>
         <Route path="/features" component={Features} />
@@ -20,14 +24,6 @@ function App() {
         <Route path="/contact" component={Contact} />
       </Switch>
     </Router>
-
-    // <div>
-    //   <Navbar />
-    //   <Home />
-    //   <Features />
-    //   <Videos />
-    //   <Contact />
-    // </div>
   );
 }
 
