@@ -12,9 +12,9 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/home" exact render={() => {
+        <Route path="/" exact render={() => {
           return (
-            <Redirect to="/home" />
+            <Redirect to="/" />
           )
         }} component={Home} />
       </Switch>
