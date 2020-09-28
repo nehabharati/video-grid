@@ -11,15 +11,15 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Route path="/" exact render={() => {
+      <Route path="/video-grid" exact render={() => {
         return (
-          <Redirect to="/" />
+          <Redirect to="/video-grid" />
         )
       }} component={Home} />
       <Switch>
-        <Route path="/features" component={Features} />
-        <Route path="/videos" component={Videos} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/video-grid/features" component={Features} />
+        <Route path="/video-grid/videos" component={Videos} />
+        <Route path="/video-grid/contact" component={Contact} />
       </Switch>
     </Router>
   );
