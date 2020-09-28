@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar"
 import Videos from "./components/Videos"
 import Features from "./components/Features"
 import Contact from "./components/Contact"
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 
 function App() {
   return (
