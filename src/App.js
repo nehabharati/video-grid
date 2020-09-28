@@ -11,13 +11,11 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Switch>
-        <Route path="/" exact render={() => {
-          return (
-            <Redirect to="/" />
-          )
-        }} component={Home} />
-      </Switch>
+      <Route path="/" exact render={() => {
+        return (
+          <Redirect to="/" />
+        )
+      }} component={Home} />
       <Switch>
         <Route path="/features" component={Features} />
         <Route path="/videos" component={Videos} />
