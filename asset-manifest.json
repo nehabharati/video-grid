@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/video-grid/static/css/main.93bd20c5.chunk.css",
+    "main.js": "/video-grid/static/js/main.3cd1533d.chunk.js",
+    "main.js.map": "/video-grid/static/js/main.3cd1533d.chunk.js.map",
+    "runtime-main.js": "/video-grid/static/js/runtime-main.e7d5370f.js",
+    "runtime-main.js.map": "/video-grid/static/js/runtime-main.e7d5370f.js.map",
+    "static/js/2.64d3d600.chunk.js": "/video-grid/static/js/2.64d3d600.chunk.js",
+    "static/js/2.64d3d600.chunk.js.map": "/video-grid/static/js/2.64d3d600.chunk.js.map",
+    "index.html": "/video-grid/index.html",
+    "precache-manifest.303844f3198a940168d92334b3aa927d.js": "/video-grid/precache-manifest.303844f3198a940168d92334b3aa927d.js",
+    "service-worker.js": "/video-grid/service-worker.js",
+    "static/css/main.93bd20c5.chunk.css.map": "/video-grid/static/css/main.93bd20c5.chunk.css.map",
+    "static/js/2.64d3d600.chunk.js.LICENSE.txt": "/video-grid/static/js/2.64d3d600.chunk.js.LICENSE.txt",
+    "static/media/happy.svg": "/video-grid/static/media/happy.72aef8b0.svg",
+    "static/media/hero.svg": "/video-grid/static/media/hero.65f11b42.svg",
+    "static/media/search.svg": "/video-grid/static/media/search.cba12397.svg",
+    "static/media/stream.svg": "/video-grid/static/media/stream.8b8f9c68.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7d5370f.js",
+    "static/js/2.64d3d600.chunk.js",
+    "static/css/main.93bd20c5.chunk.css",
+    "static/js/main.3cd1533d.chunk.js"
+  ]
+}
