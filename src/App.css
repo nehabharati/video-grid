@@ -14,6 +14,10 @@ nav {
   -moz-box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
 }
+.logo {
+  font-size: 2rem; 
+  margin: 0 4em;
+}
 .home {
   display: flex;
   justify-content: space-between;
@@ -63,8 +67,7 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: none;
   color: #000;
-}
-
+} 
 .features {
   margin: 8em;
 }
@@ -133,3 +136,62 @@ footer {
 .my-videos h1 {
   margin-left: 4em;
 }
+
+@media (max-width:986px) {
+  nav {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  }
+  nav ul {
+    flex-direction: column;
+    justify-content: center; 
+    padding-left: 0;
+    align-items: center;
+  }
+  nav ul li { 
+    padding: 1em ;
+  }
+  nav ul li:hover {
+    background-color: #ddd; 
+    border-radius: 5px;
+  }
+  .logo {
+    margin: 0.5em auto;
+  }
+  .home {
+    flex-direction: column-reverse;
+    padding: 2em;
+    margin: 2em;
+  }
+  .home img {
+    width: 200px;
+  }
+  .home h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .features {
+    margin: 2em;
+  }
+  .feature {
+    flex-direction: column-reverse;
+  }
+  .feature-img img{
+    width: 150px;
+  }
+  .feature-desc h2 {
+    text-align: center;
+  }
+  .videos {
+    display: grid;
+    grid-template-columns:  1fr ;
+    margin: 0 1em;  
+  }
+  .video-card p {
+    font-size: 1rem;
+    font-weight: 700;
+    padding:0 1em;
+    text-align: center;
+  }
+} 

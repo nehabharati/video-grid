@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <div className="navbar">
             <nav>
-                <FontAwesomeIcon icon={faVideo} style={{ fontSize: "2rem", margin: "0 4em" }} />
+                <FontAwesomeIcon icon={faVideo} className="logo" />
                 <ul>
                     <li>
                         <Link to="/">
